@@ -1,43 +1,35 @@
-# Windows image file caches
+# ignore os/app generated files
 Thumbs.db
-ehthumbs.db
-
-# Folder config file
-Desktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
-
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
 .DS_Store
-.AppleDouble
-.LSOverride
+*.esproj
+*.project
+*.sublime-project
+*.sublime-workspace
 
-# Thumbnails
-._*
+# ignore user .htaccess
+/.htaccess
 
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes
+# ignore user sitemap
+/sitemap.xml
 
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# ignore user defines
+/monstra/boot/defines.php
+
+# ignore debug and custom themes
+/public/themes/*
+/admin/themes/*
+!/public/themes/default
+!/admin/themes/default
+
+# ignore user plugins
+/plugins/*
+!/plugins/box
+!/plugins/captcha
+!/plugins/markitup
+!/plugins/sandbox
+
+# ignore user files and folders
+/backups/*
+/public/*
+/storage/*
+/tmp/*
