@@ -21,6 +21,6 @@
         </div>
 
     </div>
-    Something here
+    Something here something here
 </div>
 <?php Chunk::get('footer'); ?>
